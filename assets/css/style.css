@@ -20,7 +20,7 @@
   --rich-black-fogra-29_95: hsla(222, 18%, 11%, 0.95);
   --raisin-black-1: hsl(0, 0%, 16%);
   --raisin-black-2: hsl(236, 17%, 17%);
-  --raisin-black-3: hsl(280, 11%, 11%);
+  --raisin-black-3: #02040f;
   --raisin-black-4: hsl(280, 8%, 15%);
   --english-violet: hsl(274, 21%, 23%);
   --eerie-black: #02040f;
@@ -1495,6 +1495,7 @@ h3.newsletter-title {
 
 a.card-btn.btn-star {
   background: none;
+  color: var(--white);
 }
 
 .card-wrapper .btn-redeem {
