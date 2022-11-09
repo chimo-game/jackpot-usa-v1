@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="/assets/css/signup-style.css">
 
         <!-- fav-icon -->
-        <link rel="shortcut icon" href="/assets/images/favicon/person-add.svg" type="image/x-icon">
+        <link rel="shortcut icon" href="/assets/images/favicon/jackpot-usa/jackpot-usa-logo-3.png" type="image/x-icon">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
     <body>
 
         <div class="container main">
-            <form name="contact" netlify>
+            <!-- <form name="contact" netlify>
                 <p>
                     <label>Name <input type="text" name="name" /></label>
                 </p>
@@ -49,14 +49,35 @@
                 <p>
                     <button type="submit">Send</button>
                 </p>
+            </form> -->
+            <header>Contact us</header>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="field claim-field">
+                    <!-- <label for="promo">Enter your name</label> -->
+                    <div class="input-field">
+                        <input id="claim" type="text" name="name" placeholder="@your name" class="claim"></input>
+                    </div>
+                    <div class="input-field">
+                        <input id="claim" type='email' name="email" placeholder="@your email" class="claim"></input>
+                    </div>
+                    <span class="error email-error">
+                        <i class="bx bx-error-circle error-icon"></i>
+                        <p class="error-text">Please enter your name</p>
+                    </span>
+                </div>
+                <div class="field massage-field">
+                    <textarea name="" id="" placeholder="your message"></textarea>
+                </div>
+
+                <div class="input-field button">
+                    <input type="submit" value="Send" class='active-claim custom-btn btn-4 ' />
+                </div>
             </form>
         </div>
 
         <!-- custome-js -->
 
-        <script src="../assets/js/signup.js">
-
-        </script>
+        <script src=" ../assets/js/signup.js"> </script>
         <script src="../assets/js/notification.js">
 
         </script>

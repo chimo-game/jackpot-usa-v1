@@ -289,3 +289,11 @@ form .input-field {
   padding: 0 10px 0 10px;
   border: 1px solid rgb(209, 209, 209);
 }
+.massage-field textarea {
+  width: 100%;
+  height: 100px;
+  outline: none;
+  border-radius: 8px;
+  padding: 0 10px 0 10px;
+  border: 1px solid rgb(209, 209, 209);
+}
