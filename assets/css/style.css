@@ -1839,6 +1839,13 @@ a ion-icon.star {
   display: inline-block;
   color: var(--marigold);
 }
+
+.logo:hover {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--marigold);
+}
+
 .footer-bottom a:hover {
   display: inline-block;
   color: var(--marigold);
