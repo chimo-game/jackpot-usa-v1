@@ -23,18 +23,19 @@
   --raisin-black-3: hsl(280, 11%, 11%);
   --raisin-black-4: hsl(280, 8%, 15%);
   --english-violet: hsl(274, 21%, 23%);
+  --eerie-black: #02040f;
   --eerie-black-1: hsl(277, 25%, 10%);
   --eerie-black-2: hsl(280, 7%, 8%);
   --roman-silver: hsl(220, 6%, 59%);
   --quick-silver: hsl(0, 1%, 65%);
   --light-gray-1: hsl(0, 0%, 80%);
   --light-gray-2: hsl(0, 2%, 82%);
-  --marigold_75: hsla(42, 99%, 46%, 0.75);
-  --create-account: #4caf50;
-  --redeem: #03a9f4;
+  --marigold_75: #2b59c3;
+  --create-account: #baff29;
+  --redeem: #20a4f3;
   --xiketic_90: hsla(280, 37%, 8%, 0.9);
   --cultured-2: hsl(0, 0%, 97%);
-  --marigold: #d99902;
+  --marigold: #4cb944;
   --platinum: hsl(0, 0%, 89%);
   --dim-gray: hsl(0, 0%, 42%);
   --white_15: hsla(0, 0%, 100%, 0.15);
@@ -1479,7 +1480,7 @@ h3.newsletter-title {
 
 .card-wrapper a {
   display: flex;
-  color: var(--white);
+  color: var(--eerie-black);
   justify-content: space-between;
   align-items: center;
 }
@@ -1835,6 +1836,10 @@ a ion-icon.star {
 }
 
 .copyright-link {
+  display: inline-block;
+  color: var(--marigold);
+}
+.footer-bottom a:hover {
   display: inline-block;
   color: var(--marigold);
 }
